@@ -201,3 +201,32 @@ footer {
   }
 
 }
+
+@media (max-width:900px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+  }
+
+  #features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+  }
+
+  h2, h3, .cta-heading {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+}
